@@ -4,37 +4,66 @@
     <title>About Matthew Funk</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="header_full">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-auto p-3" id="header_full">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portNav" aria-controls="portNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
         <div id="header_indented">
-            <span id="header_name">Matthew Funk</span>
-            <span id="header_links">
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </span>
+            <span class="navbar-text" id="header_name">Matthew Funk</span>
+            <div class="collapse navbar-collapse" id="portNav header_indented">
+                
+                <ul class="navbar-nav ml-auto" id="header_links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
-    <section id="main_area">
-        <h1>About Me</h1>
-        <hr>
-        <p>
-            <img id="fam_pic" src="assets/images/fam.jpg" alt="My wonderful family">
+    </nav>
+    <div class="container w-auto p3">
+        <div class="row">
+            <div class="col-md-2">
+                &nbsp;	
+            </div>
+            <div class="col-md-8 main_area">
+                <h1>About Me</h1>
+                <hr>
+                <p>
+                    <img id="fam_pic" src="assets/images/fam.jpg" alt="My wonderful family">
 
-            Hello, my name is Matthew Funk. I'm a 40 year old father of 2 and married to one of the most patient women ever to grace this earth. I am currently a security operations engineer but am looking to move into more of a developer or devops role. I initially intended to move into an investigative role, be it in a SOC or threat intelligence, but recently reconsidered that after being exposed to programming in Python. The ability to automate tasks and streamline processes really intrigued me and scratched the problem-solver itch that is always active in my brain. In an effort to be platform agnostic I started to work with Flask and pushed my tools to a web interface. This really had an effect on me and caused me to rethink my career path. I am hoping to leverage this bootcamp into fleshing out my skillset even more and allowing me to bring into reality the apps I have been brainstorming about but never knew how to make.
-        </p>
-        <br><br><br>
-        <p>
-            My hobbies are my kids and video games. My son plays soccer and is starting to get into other sports while my daughter will be starting dance soon. I enjoy watching them work hard and accomplish their goals. When I am not with them or spending time with my lovely wife, I am playing video games. I have been an avid gamer most of my life, starting with Super Mario Brothers and Duck Hunt at the age of 5. I've recently taken up the hobby of streaming video games and am working towards the affiliate status with Twitch. I play a variety of games and am constantly practicing and streaming to hone the craft and make it an enjoyable experience for the viewer. I really enjoy it because it allows me to do a few things I love at once; including playing video games and making people laugh.
-        </p>
-    </section>
+                    Hello, my name is Matthew Funk. I'm a 40 year old father of 2 and married to one of the most patient women ever to grace this earth. I am currently a security operations engineer but am looking to move into more of a developer or devops role. I initially intended to move into an investigative role, be it in a SOC or threat intelligence, but recently reconsidered that after being exposed to programming in Python. The ability to automate tasks and streamline processes really intrigued me and scratched the problem-solver itch that is always active in my brain. In an effort to be platform agnostic I started to work with Flask and pushed my tools to a web interface. This really had an effect on me and caused me to rethink my career path. I am hoping to leverage this bootcamp into fleshing out my skillset even more and allowing me to bring into reality the apps I have been brainstorming about but never knew how to make.
+                </p>
 
-    <footer>
-        <div>
-            <span>Copyright&copy;</span>
+                <p>
+                    My hobbies are my kids and video games. My son plays soccer and is starting to get into other sports while my daughter will be starting dance soon. I enjoy watching them work hard and accomplish their goals. When I am not with them or spending time with my lovely wife, I am playing video games. I have been an avid gamer most of my life, starting with Super Mario Brothers and Duck Hunt at the age of 5. I've recently taken up the hobby of streaming video games and am working towards the affiliate status with Twitch. I play a variety of games and am constantly practicing and streaming to hone the craft and make it an enjoyable experience for the viewer. I really enjoy it because it allows me to do a few things I love at once; including playing video games and making people laugh.
+                </p>
+            </div>
+            <div class="col-md-2">
+                    &nbsp;	
+            </div>
         </div>
-    </footer>
-    
+        </section>
+
+        <nav class="navbar fixed-bottom navbar-light navbar-custom" id="footer">
+            <ul class="nav navbar-nav mx-auto">
+                <li class="nav-item">
+                    <span id="footer-span">Copyright&copy;</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
