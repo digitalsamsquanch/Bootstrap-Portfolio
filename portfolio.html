@@ -3,14 +3,16 @@
 <head>
     <title>About Matthew Funk</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center fixed-top" id="header_full">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center fixed-top" id="header_full">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portNav" aria-controls="portNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,48 +31,70 @@
             </ul>
         </div>
     </nav>
-    </section>
-    <section id="main_area">
-        <h1>Portfolio</h1>
-        <hr>
-        <div class="item">
-            <div class="polaroid"><img src="https://picsum.photos/600/400?random=1">
-                <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
+    <div class="container main_area">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Portfolio</h1>
+                <hr>
             </div>
         </div>
-        <div class="item">
-            <div class="polaroid"><img src="https://picsum.photos/600/400?random=2">
-                <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="polaroid"><img src="https://picsum.photos/600/400?random=1">
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="polaroid"><img src="https://picsum.photos/600/400?random=2">
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="polaroid"><img src="https://picsum.photos/600/400?random=3">
+                        <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="item">
-            <div class="polaroid"><img src="https://picsum.photos/600/400?random=3">
-                <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate?</div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="polaroid"><img src="https://picsum.photos/600/400?random=4">
+                        <div class="caption">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="polaroid"><img src="https://picsum.photos/600/400?random=4">
-                <div class="caption">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="polaroid"><img src="https://picsum.photos/600/400?random=5">
+                        <div class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="polaroid"><img src="https://picsum.photos/600/400?random=5">
-                <div class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="polaroid"><img src="https://picsum.photos/600/400?random=6">
-                <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="polaroid"><img src="https://picsum.photos/600/400?random=6">
+                        <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </section>
 
-    <footer>
-        <div>
-            <span>Copyright&copy;</span>
-        </div>
-    </footer>
+        <nav class="navbar fixed-bottom navbar-light navbar-custom" id="footer">
+            <ul class="nav navbar-nav mx-auto">
+                <li class="nav-item">
+                    <span id="footer-span">Copyright&copy;</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
     
 </body>
 </html>
