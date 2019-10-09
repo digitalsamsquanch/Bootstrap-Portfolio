@@ -7,6 +7,7 @@
 body {
     background-image: url("../images/concrete_wall_2.png");
     margin-top: 100px;
+    padding-bottom: 60px;
 }
 
 heading hr {
@@ -54,7 +55,7 @@ heading hr {
     bottom: 0px;
 }
 
- .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: #4aaaa5;
 }
 
