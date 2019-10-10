@@ -34,6 +34,10 @@ heading hr {
 
 }
 
+.links {
+    display: inline-block;
+}
+
 #fam_pic {
     float: left;
     height: 200px;
@@ -42,6 +46,13 @@ heading hr {
     border-radius: 8px;
 }
 
+#github_icon, #linkedin_icon {
+    height: 150px;
+    width: 150px;
+    border: 0ch;
+    padding-top: 1%;
+    
+}
 
 #footer {
     height: 50px;
@@ -70,4 +81,8 @@ heading hr {
 .navbar-custom {
 background-color: #666666;
 color: #ffffff;
+}
+
+.card {
+    border: none;
 }
