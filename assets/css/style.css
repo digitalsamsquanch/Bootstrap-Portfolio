@@ -1,12 +1,10 @@
 #header_full {
-    background-color: #ffffff;
+    background-color: #007D80;
     border-bottom: 2px solid #cccccc;
     /* height: 100px; */
 }
 
 body {
-    background-image: url("../images/concrete_wall_2.png");
-    margin-top: 100px;
     padding-bottom: 60px;
 }
 
@@ -21,15 +19,13 @@ heading hr {
 #header_name {
     font-size: 2rem;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ffffff;
-    background: #4aaaa5;
+    color: #FFF3A3;
 
 }
 
 .main_area {
     width: 960px;
-    color: #777777;
-    background-color: #ffffff;
+    color: #FFF3A3;
     border: 1px solid #dddddd;
 
 }
@@ -56,8 +52,8 @@ heading hr {
 
 #footer {
     height: 50px;
-    color: #ffffff;
-    background-color: #666666;
+    color: #FFF3A3;
+    background-color: #007D80;
     border-top: 8px solid #4aaaa5;
 }
 
@@ -79,10 +75,11 @@ heading hr {
 }
 
 .navbar-custom {
-background-color: #666666;
-color: #ffffff;
+background-color: #007D80;
+color: #007D80;
 }
 
 .card {
     border: none;
+    background:none !important
 }
