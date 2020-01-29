@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About Matthew Funk</title>
+    <title>Contact Matthew Funk</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -12,29 +12,42 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/contact.css">
 </head>
-<body>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center fixed-top" id="header_full">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portNav" aria-controls="portNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <span class="navbar-text" id="header_name">Matthew Funk</span>   
-            <div class="collapse navbar-collapse" id="portNav">
-                <ul class="navbar-nav ml-auto" id="header_links">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    <div class="container main_area">
+<body id="proBack">
+    <nav
+    class="navbar navbar-expand-sm navbar-light justify-content-center fixed-top"
+    id="header_full"
+  >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#portNav"
+      aria-controls="portNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="navbar-text" id="header_name">Matthew Funk</span>
+    <div class="collapse navbar-collapse" id="portNav">
+      <ul class="navbar-nav ml-auto" id="header_links">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"
+            >About <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10">
                 <h1>Contact</h1>
                 <hr>
             </div>
@@ -52,16 +65,30 @@
                 </form>
             </div>
         </div>
-    </section>
 
-        <nav class="navbar fixed-bottom navbar-light navbar-custom" id="footer">
-            <ul class="nav navbar-nav mx-auto">
-                <li class="nav-item">
-                    <span id="footer-span">Copyright&copy;</span>
-                </li>
-            </ul>
-        </nav>
+    <nav class="navbar fixed-bottom navbar-light navbar-custom" id="footer">
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item">
+            <span id="footer-span">Copyright&copy;</span>
+          </li>
+        </ul>
+      </nav>
     </div>
     
+    <script src="assets/javascript/p5.min.js"></script>
+    <script src="assets/javascript/vanta.topology.min.js"></script>
+    <script>
+      VANTA.TOPOLOGY({
+        el: "#proBack",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xe3b953,
+        backgroundColor: 0x4b4c52
+      });
+    </script>
 </body>
 </html>
